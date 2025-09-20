@@ -13,39 +13,71 @@ export default function Header() {
               {/* Emergency */}
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-medical-secondary rounded-full flex items-center justify-center">
-                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <svg
+                    className="w-5 h-5 text-white"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                   </svg>
                 </div>
                 <div>
-                  <div className="text-medical-secondary text-sm font-medium uppercase">Emergency</div>
-                  <div className="text-medical-primary text-sm font-medium">(237) 681-812-255</div>
+                  <div className="text-medical-secondary text-sm font-medium uppercase">
+                    Emergency
+                  </div>
+                  <div className="text-medical-primary text-sm font-medium">
+                    (237) 681-812-255
+                  </div>
                 </div>
               </div>
 
               {/* Work Hours */}
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-medical-secondary rounded-full flex items-center justify-center">
-                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
+                  <svg
+                    className="w-5 h-5 text-white"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                      clipRule="evenodd"
+                    />
                   </svg>
                 </div>
                 <div>
-                  <div className="text-medical-secondary text-sm font-medium uppercase">Work Hour</div>
-                  <div className="text-medical-primary text-sm font-medium">09:00 - 20:00 Everyday</div>
+                  <div className="text-medical-secondary text-sm font-medium uppercase">
+                    Work Hour
+                  </div>
+                  <div className="text-medical-primary text-sm font-medium">
+                    09:00 - 20:00 Everyday
+                  </div>
                 </div>
               </div>
 
               {/* Location */}
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-medical-secondary rounded-full flex items-center justify-center">
-                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                  <svg
+                    className="w-5 h-5 text-white"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                      clipRule="evenodd"
+                    />
                   </svg>
                 </div>
                 <div>
-                  <div className="text-medical-secondary text-sm font-medium uppercase">Location</div>
-                  <div className="text-medical-primary text-sm font-medium">0123 Some Place</div>
+                  <div className="text-medical-secondary text-sm font-medium uppercase">
+                    Location
+                  </div>
+                  <div className="text-medical-primary text-sm font-medium">
+                    0123 Some Place
+                  </div>
                 </div>
               </div>
             </div>
@@ -65,22 +97,40 @@ export default function Header() {
           <div className="flex items-center justify-between h-20">
             {/* Navigation Links */}
             <div className="hidden lg:flex items-center space-x-8">
-              <a href="#" className="text-medical-accent text-lg font-semibold hover:text-white transition-colors">
+              <a
+                href="#"
+                className="text-medical-accent text-lg font-semibold hover:text-white transition-colors"
+              >
                 Home
               </a>
-              <a href="#" className="text-white text-lg font-normal hover:text-medical-accent transition-colors">
+              <a
+                href="#"
+                className="text-white text-lg font-normal hover:text-medical-accent transition-colors"
+              >
                 About us
               </a>
-              <a href="#" className="text-white text-lg font-normal hover:text-medical-accent transition-colors">
+              <a
+                href="#"
+                className="text-white text-lg font-normal hover:text-medical-accent transition-colors"
+              >
                 Services
               </a>
-              <a href="#" className="text-white text-lg font-normal hover:text-medical-accent transition-colors">
+              <a
+                href="#"
+                className="text-white text-lg font-normal hover:text-medical-accent transition-colors"
+              >
                 Doctors
               </a>
-              <a href="#" className="text-white text-lg font-normal hover:text-medical-accent transition-colors">
+              <a
+                href="#"
+                className="text-white text-lg font-normal hover:text-medical-accent transition-colors"
+              >
                 News
               </a>
-              <a href="#" className="text-white text-lg font-normal hover:text-medical-accent transition-colors">
+              <a
+                href="#"
+                className="text-white text-lg font-normal hover:text-medical-accent transition-colors"
+              >
                 Contact
               </a>
             </div>
@@ -89,8 +139,18 @@ export default function Header() {
             <div className="flex items-center gap-4">
               {/* Search */}
               <div className="hidden sm:flex items-center gap-2 text-white">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
                 </svg>
               </div>
 
@@ -100,12 +160,22 @@ export default function Header() {
               </button>
 
               {/* Mobile Menu Button */}
-              <button 
+              <button
                 className="lg:hidden text-white"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
               >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                <svg
+                  className="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
                 </svg>
               </button>
             </div>
@@ -115,12 +185,27 @@ export default function Header() {
           {isMenuOpen && (
             <div className="lg:hidden bg-medical-secondary border-t border-medical-primary/20 py-4">
               <div className="flex flex-col space-y-4">
-                <a href="#" className="text-medical-accent text-lg font-semibold">Home</a>
-                <a href="#" className="text-white text-lg">About us</a>
-                <a href="#" className="text-white text-lg">Services</a>
-                <a href="#" className="text-white text-lg">Doctors</a>
-                <a href="#" className="text-white text-lg">News</a>
-                <a href="#" className="text-white text-lg">Contact</a>
+                <a
+                  href="#"
+                  className="text-medical-accent text-lg font-semibold"
+                >
+                  Home
+                </a>
+                <a href="#" className="text-white text-lg">
+                  About us
+                </a>
+                <a href="#" className="text-white text-lg">
+                  Services
+                </a>
+                <a href="#" className="text-white text-lg">
+                  Doctors
+                </a>
+                <a href="#" className="text-white text-lg">
+                  News
+                </a>
+                <a href="#" className="text-white text-lg">
+                  Contact
+                </a>
               </div>
             </div>
           )}
