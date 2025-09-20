@@ -57,6 +57,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Medical website brand colors
+        medical: {
+          primary: "#1F2B6C",
+          secondary: "#159EEC",
+          accent: "#BFD2F8",
+          white: "#FCFEFE",
+          black: "#212124",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
