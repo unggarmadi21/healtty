@@ -1,5 +1,7 @@
 /** @import must precede all other statements */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One:wght@400&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -12,51 +14,51 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Medical website colors */
+    --medical-primary: 224 57% 27%; /* #1F2B6C */
+    --medical-secondary: 207 82% 52%; /* #159EEC */
+    --medical-accent: 222 70% 90%; /* #BFD2F8 */
+    --medical-white: 180 100% 99%; /* #FCFEFE */
+    --medical-black: 240 8% 13%; /* #212124 */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --background: var(--medical-white);
+    --foreground: var(--medical-black);
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --card: var(--medical-white);
+    --card-foreground: var(--medical-black);
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --popover: var(--medical-white);
+    --popover-foreground: var(--medical-black);
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --primary: var(--medical-primary);
+    --primary-foreground: var(--medical-white);
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --secondary: var(--medical-accent);
+    --secondary-foreground: var(--medical-primary);
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --muted: var(--medical-accent);
+    --muted-foreground: var(--medical-primary);
+
+    --accent: var(--medical-accent);
+    --accent-foreground: var(--medical-primary);
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: var(--medical-white);
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: var(--medical-accent);
+    --input: var(--medical-accent);
+    --ring: var(--medical-secondary);
 
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: var(--medical-white);
+    --sidebar-foreground: var(--medical-black);
+    --sidebar-primary: var(--medical-primary);
+    --sidebar-primary-foreground: var(--medical-white);
+    --sidebar-accent: var(--medical-accent);
+    --sidebar-accent-foreground: var(--medical-primary);
+    --sidebar-border: var(--medical-accent);
+    --sidebar-ring: var(--medical-secondary);
   }
 
   .dark {
@@ -105,5 +107,14 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Work Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  .font-yeseva {
+    font-family: 'Yeseva One', cursive;
+  }
+
+  .font-work-sans {
+    font-family: 'Work Sans', sans-serif;
   }
 }
