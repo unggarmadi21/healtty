@@ -3,7 +3,7 @@ import Header from "../components/Header";
 export default function About() {
   return (
     <div className="min-h-screen bg-medical-white">
-      <Header currentPage="about" />
+      <Header />
 
       {/* Hero/SubHead Section */}
       <section className="relative h-64 bg-medical-white">
