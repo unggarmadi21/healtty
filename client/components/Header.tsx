@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -97,43 +98,69 @@ export default function Header() {
           <div className="flex items-center justify-between h-20">
             {/* Navigation Links */}
             <div className="hidden lg:flex items-center space-x-8">
-              <a
-                href="#"
-                className="text-medical-accent text-lg font-semibold hover:text-white transition-colors"
-              >
-                Home
-              </a>
-              <a
-                href="#"
-                className="text-white text-lg font-normal hover:text-medical-accent transition-colors"
-              >
-                About us
-              </a>
-              <a
-                href="#"
-                className="text-white text-lg font-normal hover:text-medical-accent transition-colors"
-              >
-                Services
-              </a>
-              <a
-                href="#"
-                className="text-white text-lg font-normal hover:text-medical-accent transition-colors"
-              >
-                Doctors
-              </a>
-              <a
-                href="#"
-                className="text-white text-lg font-normal hover:text-medical-accent transition-colors"
-              >
-                News
-              </a>
-              <a
-                href="#"
-                className="text-white text-lg font-normal hover:text-medical-accent transition-colors"
-              >
-                Contact
-              </a>
-            </div>
+    <NavLink
+      to="/"
+      className={({ isActive }) =>
+        isActive
+          ? "text-white text-lg font-normal border-b-2 border-medical-accent"
+          : "text-white text-lg font-normal hover:text-white transition-colors"
+      }
+      end
+    >
+      Home
+    </NavLink>
+    <NavLink
+      to="/about"
+      className={({ isActive }) =>
+        isActive
+          ? "text-white text-lg font-normal border-b-2 border-medical-accent"
+          : "text-white text-lg font-normal hover:text-medical-accent transition-colors"
+      }
+    >
+      About us
+    </NavLink>
+    <NavLink
+      to="/services"
+      className={({ isActive }) =>
+        isActive
+          ? "text-white text-lg font-normal border-b-2 border-medical-accent"
+          : "text-white text-lg font-normal hover:text-medical-accent transition-colors"
+      }
+    >
+      Services
+    </NavLink>
+    <NavLink
+      to="/doctors"
+      className={({ isActive }) =>
+        isActive
+          ? "text-white text-lg font-normal border-b-2 border-medical-accent"
+          : "text-white text-lg font-normal hover:text-medical-accent transition-colors"
+      }
+    >
+      Doctors
+    </NavLink>
+    <NavLink
+      to="/news"
+      className={({ isActive }) =>
+        isActive
+          ? "text-white text-lg font-normal border-b-2 border-medical-accent"
+          : "text-white text-lg font-normal hover:text-medical-accent transition-colors"
+      }
+    >
+      News
+    </NavLink>
+    <NavLink
+      to="/contact"
+      className={({ isActive }) =>
+        isActive
+          ? "text-white text-lg font-normal border-b-2 border-medical-accent"
+          : "text-white text-lg font-normal hover:text-medical-accent transition-colors"
+      }
+    >
+      Contact
+    </NavLink>
+  </div>
+
 
             {/* Search and Appointment */}
             <div className="flex items-center gap-4">
@@ -186,12 +213,12 @@ export default function Header() {
             <div className="lg:hidden bg-medical-secondary border-t border-medical-primary/20 py-4">
               <div className="flex flex-col space-y-4">
                 <a
-                  href="#"
+                  href="/"
                   className="text-medical-accent text-lg font-semibold"
                 >
                   Home
                 </a>
-                <a href="#" className="text-white text-lg">
+                <a href="/About" className="text-white text-lg">
                   About us
                 </a>
                 <a href="#" className="text-white text-lg">
