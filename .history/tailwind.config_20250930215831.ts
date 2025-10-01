@@ -14,14 +14,6 @@ export default {
     },
     extend: {
       colors: {
-        // Custom color palette for service pages
-        'health': {
-          'primary': '#1F2B6C',
-          'secondary': '#159EEC',
-          'accent': '#BFD2F8',
-          'white': '#FCFEFE',
-          'black': '#212124',
-        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -65,7 +57,7 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Custom color palette  pages
+        // Medical website brand colors
         medical: {
           primary: "#1F2B6C",
           secondary: "#159EEC",

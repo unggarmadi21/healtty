@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       colors: {
-        // Custom color palette for service pages
+        // Healthcare design system colors
         'health': {
           'primary': '#1F2B6C',
           'secondary': '#159EEC',
@@ -65,7 +65,7 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Custom color palette  pages
+        // Medical website brand colors
         medical: {
           primary: "#1F2B6C",
           secondary: "#159EEC",

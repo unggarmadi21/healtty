@@ -65,7 +65,8 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Custom color palette  pages
+
+        // Custom color palette for service pages
         medical: {
           primary: "#1F2B6C",
           secondary: "#159EEC",
