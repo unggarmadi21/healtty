@@ -2,12 +2,12 @@ import Header from "../components/Header";
 
 export default function Index() {
   return (
-    <div className="min-h-screen bg-health-white font-body">
+    <div className="min-h-screen bg-healt-white font-body">
       <Header />
       
       {/* Hero Section */}
-      <section className="relative bg-health-white ">
-        <div className="absolute inset-0 bg-gradient-to-r from-health-white/50 to-health-white/50">
+      <section className="relative bg-gradient-to-r from-medical-accent/30 to-transparent">
+        <div className="absolute inset-0">
           <img 
             src="https://api.builder.io/api/v1/image/assets/TEMP/51daed43868b281ed04bbac30f90811aceaa1821?width=2732" 
             alt="Medical professionals" 
@@ -609,7 +609,7 @@ export default function Index() {
                   placeholder="Enter your email address"
                   className="flex-1 px-4 py-3 rounded-l-lg text-medical-primary bg-medical-accent placeholder-medical-primary/70"
                 />
-                <button className="bg-health-white px-4 py-3 rounded-r-lg hover:bg-primary transition-colors" type="submit">
+                <button className="bg-medical-accent px-4 py-3 rounded-r-lg">
                   <svg className="w-5 h-5 text-medical-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                   </svg>

@@ -1,10 +1,11 @@
 import Header from "../components/Header";
+import BackToTop from "./components/BackToTop";
 
 export default function Index() {
   return (
     <div className="min-h-screen bg-health-white font-body">
       <Header />
-      
+      <BackToTop />
       {/* Hero Section */}
       <section className="relative bg-health-white ">
         <div className="absolute inset-0 bg-gradient-to-r from-health-white/50 to-health-white/50">

@@ -14,17 +14,17 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    /* Website colors */
-    --health-primary: 224 57% 27%; /* #1F2B6C */
-    --health-secondary: 207 82% 52%; /* #159EEC */
-    --health-accent: 222 70% 90%; /* #BFD2F8 */
-    --health-white: 180 100% 99%; /* #FCFEFE */
-    --health-black: 240 8% 13%; /* #212124 */
+    /* Medical website colors */
+    --medical-primary: 224 57% 27%; /* #1F2B6C */
+    --medical-secondary: 207 82% 52%; /* #159EEC */
+    --medical-accent: 222 70% 90%; /* #BFD2F8 */
+    --medical-white: 180 100% 99%; /* #FCFEFE */
+    --medical-black: 240 8% 13%; /* #212124 */
 
-    --background: var(--health-white);
-    --foreground: var(--health-black);
+    --background: var(--medical-white);
+    --foreground: var(--medical-black);
 
-    --card: var(--health-white);
+    --card: var(--medical-white);
     --card-foreground: var(--medical-black);
 
     --popover: var(--medical-white);
@@ -60,7 +60,7 @@
     --sidebar-border: var(--medical-accent);
     --sidebar-ring: var(--medical-secondary);
 
-    --background: 0 0% 100%;
+       --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;

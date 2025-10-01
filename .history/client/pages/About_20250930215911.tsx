@@ -2,12 +2,12 @@ import Header from "../components/Header";
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-health-white font-body">
+    <div className="min-h-screen bg-medical-white">
       <Header />
 
       {/* Hero/SubHead Section */}
-      <section className="relative h-64 bg-health-white">
-        <div className="absolute inset-0 bg-gradient-to-r from-health-white/50 to-health-white/50">
+      <section className="relative h-64 bg-medical-white">
+        <div className="absolute inset-0">
           <img
             src="https://api.builder.io/api/v1/image/assets/TEMP/56476ad4dce5e1125c6fb0641653f797c39ed3c5?width=2732"
             alt="Medical background"
@@ -558,7 +558,7 @@ export default function About() {
                   placeholder="Enter your email address"
                   className="flex-1 px-4 py-3 rounded-l-lg text-medical-primary bg-medical-accent placeholder-medical-primary/70"
                 />
-                <button className="bg-health-white px-4 py-3 rounded-r-lg hover:bg-primary transition-colors" type="submit">
+                <button className="bg-medical-accent px-4 py-3 rounded-r-lg">
                   <svg
                     className="w-5 h-5 text-medical-primary"
                     fill="none"

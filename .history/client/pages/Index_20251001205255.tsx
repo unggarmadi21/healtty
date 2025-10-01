@@ -609,7 +609,7 @@ export default function Index() {
                   placeholder="Enter your email address"
                   className="flex-1 px-4 py-3 rounded-l-lg text-medical-primary bg-medical-accent placeholder-medical-primary/70"
                 />
-                <button className="bg-health-white px-4 py-3 rounded-r-lg hover:bg-primary transition-colors" type="submit">
+                <button className="bg-medical-accent px-4 py-3 rounded-r-lg">
                   <svg className="w-5 h-5 text-medical-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                   </svg>

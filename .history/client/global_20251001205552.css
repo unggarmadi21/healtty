@@ -21,10 +21,10 @@
     --health-white: 180 100% 99%; /* #FCFEFE */
     --health-black: 240 8% 13%; /* #212124 */
 
-    --background: var(--health-white);
-    --foreground: var(--health-black);
+    --background: var(--medical-white);
+    --foreground: var(--medical-black);
 
-    --card: var(--health-white);
+    --card: var(--medical-white);
     --card-foreground: var(--medical-black);
 
     --popover: var(--medical-white);
@@ -60,7 +60,7 @@
     --sidebar-border: var(--medical-accent);
     --sidebar-ring: var(--medical-secondary);
 
-    --background: 0 0% 100%;
+       --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
