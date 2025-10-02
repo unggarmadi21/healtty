@@ -157,7 +157,7 @@ export default function News() {
                       className="w-16 h-16 rounded-md object-cover flex-shrink-0"
                     />
                     <div className="flex-1 min-w-0">
-                      <p className="text-health-secondary text-xs mb-1">{post.date}</p>
+                      <p className="text-secondary text-xs mb-1">{post.date}</p>
                       <p className="text-black text-sm leading-tight line-clamp-2">{post.title}</p>
                     </div>
                   </div>
@@ -175,7 +175,7 @@ export default function News() {
                     className="flex items-center justify-between bg-white/50 rounded-md px-5 py-3 hover:bg-accent/20 transition-colors cursor-pointer"
                   >
                     <span className="text-black text-lg">{category.name}</span>
-                    <span className="bg-health-secondary text-white text-sm px-2 py-0.5 rounded-full min-w-[24px] text-center">
+                    <span className="bg-secondary text-white text-sm px-2 py-0.5 rounded-full min-w-[24px] text-center">
                       {category.count}
                     </span>
                   </div>

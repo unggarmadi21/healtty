@@ -77,13 +77,13 @@ export default function Contact() {
       </section>
 
       {/* Contact Form & Info Section */}
-      <section className="w-full px-4 md:px-8 lg:px-8 py-8 md:py-16">
+      <section className="w-full px-4 md:px-8 lg:px-[187px] py-8 md:py-16">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
           {/* Left - Form */}
           <div className="w-full lg:w-1/2">
             <div className="mb-6 md:mb-8">
-              <p className="text-health-primary text-base md:text-lg font-bold uppercase tracking-widest mb-2">Get in touch</p>
-              <h2 className="font-yeseva text-2xl md:text-3xl text-health-primary">Contact</h2>
+              <p className="text-primary text-base md:text-lg font-bold uppercase tracking-widest mb-2">Get in touch</p>
+              <h2 className="font-yeseva text-2xl md:text-3xl text-primary">Contact</h2>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-0">
@@ -119,7 +119,7 @@ export default function Contact() {
               />
               <button
                 type="submit"
-                className="w-full bg-health-primary text-secondary px-5 py-3 md:py-4 rounded-b-md font-medium uppercase hover:bg-health-secondary/90 transition-colors"
+                className="w-full bg-health-accent text-secondary px-5 py-3 md:py-4 rounded-b-md font-medium uppercase hover:bg-/90 transition-colors"
               >
                 Submit
               </button>
@@ -129,7 +129,7 @@ export default function Contact() {
           {/* Right - Contact Cards */}
           <div className="w-full lg:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
             {/* Emergency */}
-            <div className="bg-health-secondary rounded-md p-6 md:p-8">
+            <div className="bg-accent rounded-md p-6 md:p-8">
               <Phone className="w-10 h-10 text-secondary mb-4" strokeWidth={2} />
               <h3 className="text-secondary text-lg font-bold uppercase mb-3">Emergency</h3>
               <p className="text-secondary text-base">(237) 681-812-255</p>
@@ -137,7 +137,7 @@ export default function Contact() {
             </div>
 
             {/* Location */}
-            <div className="bg-health-secondary rounded-md p-6 md:p-8">
+            <div className="bg-secondary rounded-md p-6 md:p-8">
               <MapPin className="w-8 h-9 text-accent mb-4" strokeWidth={2} />
               <h3 className="text-accent text-lg font-bold uppercase mb-3">Location</h3>
               <p className="text-accent text-base">0123 Some place</p>
@@ -145,7 +145,7 @@ export default function Contact() {
             </div>
 
             {/* Email */}
-            <div className="bg-health-secondary rounded-md p-6 md:p-8">
+            <div className="bg-accent rounded-md p-6 md:p-8">
               <Mail className="w-9 h-8 text-secondary mb-4" strokeWidth={2} />
               <h3 className="text-secondary text-lg font-bold uppercase mb-3">Email</h3>
               <p className="text-secondary text-base">fildineeesoe@gmil.com</p>
@@ -153,7 +153,7 @@ export default function Contact() {
             </div>
 
             {/* Working Hours */}
-            <div className="bg-health-secondary rounded-md p-6 md:p-8">
+            <div className="bg-accent rounded-md p-6 md:p-8">
               <Clock className="w-8 h-8 text-secondary mb-4" strokeWidth={2} />
               <h3 className="text-secondary text-lg font-bold uppercase mb-3">Working Hours</h3>
               <p className="text-secondary text-base">Mon-Sat 09:00-20:00</p>
@@ -164,20 +164,20 @@ export default function Contact() {
       </section>
 
       {/* News Section */}
-      <section className="w-full bg-health-white py-12 md:py-16">
+      <section className="w-full bg-[#FAFDFE] py-12 md:py-16">
         <div className="px-4 md:px-8 lg:px-[187px]">
           <div className="text-center mb-8 md:mb-12">
-            <p className="text-health-secondary text-base md:text-lg font-bold uppercase tracking-widest mb-2">
+            <p className="text-secondary text-base md:text-lg font-bold uppercase tracking-widest mb-2">
               Better information, Better health
             </p>
-            <h2 className="font-yeseva text-2xl md:text-3xl text-health-primary">News</h2>
+            <h2 className="font-yeseva text-2xl md:text-3xl text-primary">News</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mb-8">
             {newsArticles.map((article) => (
               <div
                 key={article.id}
-                className="bg-health-white rounded-md shadow-sm hover:shadow-md transition-shadow overflow-hidden flex"
+                className="bg-white rounded-md shadow-sm hover:shadow-md transition-shadow overflow-hidden flex"
               >
                 <img
                   src={article.image}
@@ -185,7 +185,7 @@ export default function Contact() {
                   className="w-40 h-40 object-cover rounded-l-md"
                 />
                 <div className="flex-1 p-5">
-                  <p className="text-health-secondary text-sm mb-2">{article.date} | {article.author}</p>
+                  <p className="text-secondary text-sm mb-2">{article.date} | {article.author}</p>
                   <h3 className="text-black text-base md:text-lg leading-snug mb-4">{article.title}</h3>
                   <div className="flex items-center gap-4 text-sm">
                     <span className="flex items-center gap-1">
@@ -204,9 +204,9 @@ export default function Contact() {
 
           {/* Pagination */}
           <div className="flex justify-center items-center gap-2">
-            <div className="w-5 h-5 rounded-full bg-health-accent"></div>
-            <div className="w-5 h-5 rounded-full bg-health-primary"></div>
-            <div className="w-5 h-5 rounded-full bg-health-accent"></div>
+            <div className="w-5 h-5 rounded-full bg-accent"></div>
+            <div className="w-5 h-5 rounded-full bg-primary"></div>
+            <div className="w-5 h-5 rounded-full bg-accent"></div>
           </div>
         </div>
       </section>

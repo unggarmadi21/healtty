@@ -175,7 +175,7 @@ export default function News() {
                     className="flex items-center justify-between bg-white/50 rounded-md px-5 py-3 hover:bg-accent/20 transition-colors cursor-pointer"
                   >
                     <span className="text-black text-lg">{category.name}</span>
-                    <span className="bg-health-secondary text-white text-sm px-2 py-0.5 rounded-full min-w-[24px] text-center">
+                    <span className="bg-secondary text-white text-sm px-2 py-0.5 rounded-full min-w-[24px] text-center">
                       {category.count}
                     </span>
                   </div>

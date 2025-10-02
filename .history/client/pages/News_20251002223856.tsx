@@ -118,17 +118,17 @@ export default function News() {
               </button>
               <div className="flex items-center gap-2 text-sm md:text-base">
                 <span className="text-black">1 -</span>
-                <span className="text-health-secondary">2</span>
+                <span className="text-secondary">2</span>
                 <span className="text-black">-</span>
-                <span className="text-health-secondary">3</span>
+                <span className="text-secondary">3</span>
                 <span className="text-black">-</span>
-                <span className="text-health-secondary">4</span>
+                <span className="text-secondary">4</span>
                 <span className="text-black">-</span>
-                <span className="text-health-secondary">5</span>
+                <span className="text-secondary">5</span>
               </div>
-              <button className="flex items-center gap-2 text-health-secondary text-sm md:text-base hover:text-primary transition-colors">
+              <button className="flex items-center gap-2 text-primary text-sm md:text-base hover:text-secondary transition-colors">
                 Next Page
-                <ArrowRight className="w-5 h-5" />
+                <ArrowRight className="w-5 h-5 text-secondary" />
               </button>
             </div>
           </div>
@@ -146,8 +146,8 @@ export default function News() {
             </div>
 
             {/* Recent Posts */}
-            <div className="border border-primary/20 rounded-md p-5 bg-medical-white/50">
-              <h3 className="font-yeseva text-2xl md:text-3xl text-health-primary mb-6">Recent Posts</h3>
+            <div className="border border-primary/20 rounded-md p-5 bg-white/50">
+              <h3 className="font-yeseva text-2xl md:text-3xl text-primary mb-6">Recent Posts</h3>
               <div className="space-y-4 md:space-y-5">
                 {recentPosts.map((post) => (
                   <div key={post.id} className="flex gap-3">
@@ -157,7 +157,7 @@ export default function News() {
                       className="w-16 h-16 rounded-md object-cover flex-shrink-0"
                     />
                     <div className="flex-1 min-w-0">
-                      <p className="text-health-secondary text-xs mb-1">{post.date}</p>
+                      <p className="text-secondary text-xs mb-1">{post.date}</p>
                       <p className="text-black text-sm leading-tight line-clamp-2">{post.title}</p>
                     </div>
                   </div>
@@ -175,7 +175,7 @@ export default function News() {
                     className="flex items-center justify-between bg-white/50 rounded-md px-5 py-3 hover:bg-accent/20 transition-colors cursor-pointer"
                   >
                     <span className="text-black text-lg">{category.name}</span>
-                    <span className="bg-health-secondary text-white text-sm px-2 py-0.5 rounded-full min-w-[24px] text-center">
+                    <span className="bg-secondary text-white text-sm px-2 py-0.5 rounded-full min-w-[24px] text-center">
                       {category.count}
                     </span>
                   </div>

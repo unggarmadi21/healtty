@@ -77,13 +77,13 @@ export default function Contact() {
       </section>
 
       {/* Contact Form & Info Section */}
-      <section className="w-full px-4 md:px-8 lg:px-8 py-8 md:py-16">
+      <section className="w-full px-4 md:px-8 lg:px-[187px] py-8 md:py-16">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
           {/* Left - Form */}
           <div className="w-full lg:w-1/2">
             <div className="mb-6 md:mb-8">
-              <p className="text-health-primary text-base md:text-lg font-bold uppercase tracking-widest mb-2">Get in touch</p>
-              <h2 className="font-yeseva text-2xl md:text-3xl text-health-primary">Contact</h2>
+              <p className="text-primary text-base md:text-lg font-bold uppercase tracking-widest mb-2">Get in touch</p>
+              <h2 className="font-yeseva text-2xl md:text-3xl text-primary">Contact</h2>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-0">
@@ -206,7 +206,7 @@ export default function Contact() {
           <div className="flex justify-center items-center gap-2">
             <div className="w-5 h-5 rounded-full bg-health-accent"></div>
             <div className="w-5 h-5 rounded-full bg-health-primary"></div>
-            <div className="w-5 h-5 rounded-full bg-health-accent"></div>
+            <div className="w-5 h-5 rounded-full bg-healthaccent"></div>
           </div>
         </div>
       </section>

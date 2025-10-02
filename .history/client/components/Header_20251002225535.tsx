@@ -170,15 +170,9 @@ export default function Header() {
               <button className="hidden sm:flex items-center gap-2 text-white"   onClick={() => setShowSearch(true)}
                 aria-label="Search">
                 <Search className="w-5 h-5" />
-              </button>
-
-               {/* Mobile Menu Button */}
-              <button
-                className="lg:hidden text-white"
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-              >
-                <svg
-                  className="w-6 h-6"
+                <span className="hidden md:inline">Search</span>
+                {/* <svg
+                  className="w-5 h-5"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -187,30 +181,10 @@ export default function Header() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M4 6h16M4 12h16M4 18h16"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                   />
-                </svg>
+                </svg> */}
               </button>
-
-        {/* Search Popup */}
-          {showSearch && (
-            <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
-              <div className="bg-white rounded-lg p-6 shadow-lg flex flex-col items-center gap-4">
-                <input
-                  type="text"
-                  placeholder="Search..."
-                  className="border border-medical-primary px-4 py-2 rounded w-64"
-                  autoFocus
-                />
-                <button
-                  className="bg-medical-secondary text-white px-4 py-2 rounded"
-                  onClick={() => setShowSearch(false)}
-                >
-                  Close
-                </button>
-              </div>
-            </div>
-          )}
 
               {/* Appointment Button */}
               <button className="bg-medical-accent text-medical-primary px-8 py-3 rounded-full font-medium hover:bg-white transition-colors">

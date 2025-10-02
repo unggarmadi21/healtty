@@ -83,7 +83,7 @@ export default function Contact() {
           <div className="w-full lg:w-1/2">
             <div className="mb-6 md:mb-8">
               <p className="text-health-primary text-base md:text-lg font-bold uppercase tracking-widest mb-2">Get in touch</p>
-              <h2 className="font-yeseva text-2xl md:text-3xl text-health-primary">Contact</h2>
+              <h2 className="font-yeseva text-2xl md:text-3xl text-primary">Contact</h2>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-0">

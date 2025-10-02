@@ -93,7 +93,7 @@ export default function Contact() {
                   placeholder="Name"
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  className="flex-1 bg-health-secondary text-white placeholder:text-white px-5 py-3 md:py-4 md:rounded-tl-md focus:outline-none"
+                  className="flex-1 bg-health-white text-white placeholder:text-white px-5 py-3 md:py-4 md:rounded-tl-md focus:outline-none"
                 />
                 <input
                   type="email"

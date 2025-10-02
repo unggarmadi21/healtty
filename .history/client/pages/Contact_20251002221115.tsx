@@ -82,8 +82,8 @@ export default function Contact() {
           {/* Left - Form */}
           <div className="w-full lg:w-1/2">
             <div className="mb-6 md:mb-8">
-              <p className="text-health-primary text-base md:text-lg font-bold uppercase tracking-widest mb-2">Get in touch</p>
-              <h2 className="font-yeseva text-2xl md:text-3xl text-health-primary">Contact</h2>
+              <p className="text-primary text-base md:text-lg font-bold uppercase tracking-widest mb-2">Get in touch</p>
+              <h2 className="font-yeseva text-2xl md:text-3xl text-primary">Contact</h2>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-0">
@@ -127,7 +127,7 @@ export default function Contact() {
           </div>
 
           {/* Right - Contact Cards */}
-          <div className="w-full lg:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+          <div className="w-full lg:p-8grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
             {/* Emergency */}
             <div className="bg-health-secondary rounded-md p-6 md:p-8">
               <Phone className="w-10 h-10 text-secondary mb-4" strokeWidth={2} />
