@@ -22,6 +22,7 @@ export default {
           'white': '#FCFEFE',
           'black': '#212124',
         },
+        
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

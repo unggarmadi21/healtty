@@ -15,47 +15,7 @@
   */
   :root {
     /* Website colors */
-    --white: 180 33% 99%;
-    --primary: 228 67% 24%;
-    --secondary: 201 85% 52%;
-    --accent: 220 69% 85%;
-    --black: 240 3% 13%;
     
-    --background: 180 33% 99%;
-    --foreground: 240 3% 13%;
-
-    --card: 180 33% 99%;
-    --card-foreground: 240 3% 13%;
-
-    --popover: 180 33% 99%;
-    --popover-foreground: 240 3% 13%;
-
-    --primary-btn: 228 67% 24%;
-    --primary-foreground: 180 33% 99%;
-
-    --secondary-btn: 201 85% 52%;
-    --secondary-foreground: 180 33% 99%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 220 69% 85%;
-    --input: 220 69% 85%;
-    --ring: 228 67% 24%;
-
-    --radius: 0.5rem;
-
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
     --health-primary: 224 57% 27%; /* #1F2B6C */
     --health-secondary: 207 82% 52%; /* #159EEC */
     --health-accent: 222 70% 90%; /* #BFD2F8 */

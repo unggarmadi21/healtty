@@ -22,9 +22,14 @@ export default {
           'white': '#FCFEFE',
           'black': '#212124',
         },
+        white: "hsl(var(--white))",
+        primary: "hsl(var(--primary))",
+        secondary: "hsl(var(--secondary))",
+        accent: "hsl(var(--accent))",
+        black: "hsl(var(--black))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
+        ring: "hsl(var(--ring))",zz
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {

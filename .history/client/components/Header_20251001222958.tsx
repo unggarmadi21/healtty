@@ -227,10 +227,10 @@ export default function Header() {
                 <a href="/Doctors" className="text-white text-lg">
                   Doctors
                 </a>
-                <a href="/News" className="text-white text-lg">
+                <a href="#" className="text-white text-lg">
                   News
                 </a>
-                <a href="/Contact" className="text-white text-lg">
+                <a href="#" className="text-white text-lg">
                   Contact
                 </a>
               </div>
