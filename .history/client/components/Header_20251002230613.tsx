@@ -216,6 +216,7 @@ export default function Header() {
               <button className="bg-medical-accent text-medical-primary px-8 py-3 rounded-full font-medium hover:bg-white transition-colors">
                 Appointment
               </button>
+
             </div>
           </div>
 
