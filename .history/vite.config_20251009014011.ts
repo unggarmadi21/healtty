@@ -14,7 +14,8 @@ export default defineConfig(({ mode }) => ({
     },
   },
   build: {
-    outDir: "package.json", "use": "@vercel/static-build",
+    outDir: "dist/spa",
+    src: "package.json", "use": "@vercel/static-build", 
   },
   plugins: [react(), expressPlugin()],
   resolve: {
