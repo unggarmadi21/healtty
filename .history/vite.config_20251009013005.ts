@@ -15,10 +15,8 @@ export default defineConfig(({ mode }) => ({
   },
   build: {
     outDir: "dist/spa",
-    src: "package.json", "use": "@vercel/static-build", "config": { "distDir": "dist/spa", "buildCommand": "vite build" },
-    rollupOptions: {
-      input: path.resolve(__dirname, "client/index.html"),
-    },
+    src: "package.json", "use": "@vercel/static-build", "config": { "distDir": "dist" } }
+  ]
   },
   plugins: [react(), expressPlugin()],
   resolve: {

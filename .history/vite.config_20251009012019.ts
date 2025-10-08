@@ -13,13 +13,12 @@ export default defineConfig(({ mode }) => ({
       deny: [".env", ".env.*", "*.{crt,pem}", "**/.git/**", "server/**"],
     },
   },
-  build: {
-    outDir: "dist/spa",
-    src: "package.json", "use": "@vercel/static-build", "config": { "distDir": "dist/spa", "buildCommand": "vite build" },
-    rollupOptions: {
-      input: path.resolve(__dirname, "client/index.html"),
-    },
-  },
+  bu{
+  "builds": [
+    { "src": "package.json", "use": "@vercel/static-build", "config": { "distDir": "dist" } }
+  ],
+  "outputDirectory": "dist"
+},
   plugins: [react(), expressPlugin()],
   resolve: {
     alias: {
