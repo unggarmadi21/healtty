@@ -12,10 +12,10 @@ export default defineConfig(({ mode }) => ({
       allow: [".", "client", "shared", "node_modules/vite/dist/client"],
       deny: [".env", ".env.*", "*.{crt,pem}", "**/.git/**", "server/**"],
     },
-  },
-  "script": {
+  },""script": {
     "build:client": "vite build --outDir build",
     "build": "npm run build:client && npm run build:server"
+    // ...existing code...
   },
   plugins: [react(), expressPlugin()],
   resolve: {

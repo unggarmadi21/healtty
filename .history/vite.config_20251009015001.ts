@@ -13,9 +13,8 @@ export default defineConfig(({ mode }) => ({
       deny: [".env", ".env.*", "*.{crt,pem}", "**/.git/**", "server/**"],
     },
   },
-  "script": {
-    "build:client": "vite build --outDir build",
-    "build": "npm run build:client && npm run build:server"
+  build: {
+    outDir: "dist,""package.json", "use": "@vercel/static-build",
   },
   plugins: [react(), expressPlugin()],
   resolve: {
