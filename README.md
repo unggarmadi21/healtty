@@ -2,9 +2,6 @@
 
 This is a mockup of a landing page for a healthcare service or clinic, called "Healthy," focused on professionalism and medical excellence.
 
-![Uploading Hello-world-project-11-01-2025_11_13_PM.png…]()
-
-
 ### 🌟 Design and Content Highlights:
 
 * **Focus:** Emphasizes the message **"Leading the Way in Medical Excellence"** in the *hero* section.
